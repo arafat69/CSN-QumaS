@@ -1,0 +1,351 @@
+@import url("https://use.typekit.net/kiv2sxl.css");
+
+body{
+    font-family: poppins, sans-serif;
+}
+
+:root{
+    --dark-blue: #003D7C;
+    --white: #FFFFFF;
+    --black: #282828;
+    --orange: #FF8E16 ;
+    --gray: #7C8691;
+    --green: #00D43F;
+    --red: #FF1414;
+    --dark-green: #1A7894;
+}
+
+#dashboardBody{
+    background: #F5F5F5;
+}
+
+.text-dark-blue{
+    color: var(--dark-blue);
+}
+.bg-dark-blue{
+    background: var(--dark-blue);
+}
+.text-green{
+    color: var(--green);
+}
+.bg-green{
+    background: var(--green);
+}
+.text-red{
+    color: var(--red);
+}
+.bg-red{
+    background: var(--red);
+}
+.text-dark-green{
+    color: var(--dark-green);
+}
+.bg-dark-green{
+    background: var(--dark-green);
+}
+.text-gray{
+    color: var(--gray);
+}
+.bg-gray{
+    background: var(--gray);
+}
+
+
+.navbar{
+    padding: 0 !important;
+}
+.brandName{
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+}
+
+.brandLogo{
+    width: 140px;
+}
+
+.content_wrapper{
+    display: flex;
+    gap: 16px;
+}
+
+.left_side_content{
+    width: 60%;
+}
+.padding{
+    padding: 22px;
+}
+
+.current_service, .process{
+    background: var(--white);
+}
+.current_service .title{
+    font-size: 40px;
+    color: var(--dark-blue);
+    font-weight: normal !important;
+}
+.current_service .token{
+    font-size: 54px;
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+.current_service .token-number{
+    font-size: 110px;
+    padding-left: 20px;
+    color: var(--orange);
+    font-weight: bold;
+}
+.current_service .counter{
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.process .item{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.border-right{
+    border-right: 1px solid #ddd;
+}
+
+.left_side_content .process{
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left_side_content .process .process_content{
+    padding: 4px 20px;
+    min-width: 220px;
+}
+ 
+.process_content .percent{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.right_side_content{
+    width: 40%;
+}
+
+.next_token{
+    background: var(--white);
+}
+
+.next_token .title{
+    font-size: 40px;
+    color: var(--dark-blue);
+}
+
+.next_token .ticket_item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 16px 0;
+}
+
+.next_token .box{
+    width: 60px;
+    height: 60px;
+    background: var(--gray);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 12px;
+    font-weight: 600;
+
+}
+
+.next_token .tok_number{
+    color: var(--gray);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.empty_dot{
+    width: 15px;
+    height: 15px;
+    background: #CECECE;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-bottom: 6px;
+}
+
+.link-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 14px 0;
+}
+.link-footer .links{
+    color: var(--gray);
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 5.2px;
+}
+
+/* css for allToken page */
+.search_bar{
+    background-color: var(--white);
+    padding: 12px 0;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.search_bar .search{
+    position: relative;
+}
+.search_bar .icon{
+    position: absolute;
+    right: 12px;
+    top: 10px; 
+}
+.search_bar .icon button{
+    border: none;
+    background: none;
+    color: var(--gray);
+    font-size: 20px;
+}
+
+.service .card{
+    overflow: hidden;
+    box-shadow: 0px 3px 6px #00000029;
+    border: none;
+}
+.service{
+    position: relative;
+    text-decoration: none;
+    color: var(--black);
+    
+}
+.service img{
+    transition: all .3s ease-in-out;
+}
+.service:hover{
+    color: var(--black);
+}
+.service:hover img{
+    transform: scale(1.025)
+}
+
+.service .time{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 6px 12px;
+    border-radius: 25px;
+}
+.service .service_title{
+    text-transform: capitalize;
+}
+
+
+.selected_service{
+    background: var(--white);
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 36px #0000000D;
+}
+.selected_service .details{
+    display: flex;
+    column-gap: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.selected_service .photo img{
+    width: 240px;
+}
+
+.dotted-border{
+    height: 6px;
+    border-top: 1px dashed var(--dark-blue);
+    border-bottom: 1px dashed var(--dark-blue);
+    margin-top: 18px;
+    margin-bottom: 40px;
+}
+
+.get_token_number{
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+.get_token_description{
+    font-size: 18px;
+    text-align: center;
+    color: #222222;
+}
+.getCustonBTN{
+    width: 100%;
+    height: 52px;
+    background-color: var(--dark-green) !important;
+    border-color: var(--dark-green);
+    font-size: 18px;
+    margin-top: 40px;
+}
+.getCustonBTN:hover{
+    background-color: var(--dark-green) !important;
+    border-color: var(--dark-green);
+}
+
+/* css for finished page */
+
+.finished_page_wrapper{
+    width: 100%;
+    height: calc(100vh - 85px);
+    position: relative;
+}
+
+.congratulations_box{
+    width: 580px;
+    height: auto;
+    padding: 40px 80px;
+    box-shadow: 0px 0px 36px #0000000D;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 8px;
+}
+.congratulations_box .icon{
+    font-size: 80px;
+    color: var(--green);
+}
+.congratulations_box .title{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.congratulations_box .description{
+    font-size: 18px;
+}
+.congratulations_box .token_details .item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 0;
+}
+.congratulations_box .token_details .item:first-child{
+    border-top: 1px solid #ddd;
+}
+.congratulations_box .confirmDoneBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    text-decoration: none;
+    background: var(--dark-green);
+    height: 50px;
+    border-radius: 5px !important;
+    margin-top: 16px;
+}

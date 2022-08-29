@@ -1,0 +1,270 @@
+/* screen for 1024 */
+@media screen and (max-width: 1024px){
+    .process .item{
+        font-size: 24px;
+    }
+    .left_side_content .process .process_content{
+        padding: 4px 20px;
+        min-width: auto;
+    }
+
+    .current_service .token-number{
+        font-size: 70px;
+    }
+
+    .link-footer .links{
+        letter-spacing: 3.2px;
+    }
+
+    .service .service_title{
+        font-size: 20px;
+    }
+}
+
+/* screen for 968 */
+@media screen and (max-width: 968px){
+    .current_service .title, .next_token .title{
+        font-size: 32px;
+    }
+    .current_service .token{
+        font-size: 40px;
+    }
+    .current_service .token-number{
+        font-size: 80px;
+    }
+    .current_service .counter{
+        font-size: 40px;
+    }
+
+    .next_token .box{
+        width: 45px;
+        height: 45px;
+        display: flex;
+        font-size: 24px;
+        border-radius: 8px;
+    
+    }
+    .next_token .tok_number{
+        font-size: 32px;
+    }
+
+    .empty_dot{
+        width: 10px;
+        height: 10px;
+        background: #CECECE;
+        border-radius: 50%;
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+    .link-footer{
+        gap: 20px;
+    }
+}
+
+/* screen for 768 */
+@media screen and (max-width: 768px){
+    .content_wrapper{
+        flex-wrap: wrap;
+    }
+    .left_side_content,.right_side_content{
+        width: 100%;
+    }
+
+    .link-footer{
+        gap: 40px;
+    }
+
+    .left_side_content .process .process_content{
+        padding: 4px 20px;
+        min-width: 170px;
+    }
+
+    .selected_service{
+        flex-direction: column;
+        width: 420px;
+        align-items: flex-start;
+        margin: auto;
+    }
+    .selected_service .details{
+        column-gap: 20px;
+        font-size: 16px;
+        padding: 12px;
+    }
+    .selected_service .details p{
+        margin: 0;
+        padding: 4px 0;
+    }
+    .selected_service .photo img{
+        width: 100%;
+    }
+
+    .congratulations_box{
+        width: 480px;
+        padding: 30px 50px;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0%, 0%);
+        margin: 16px auto;
+    }
+    .congratulations_box .icon{
+        font-size: 70px;
+    }
+    .congratulations_box .title{
+        font-size: 26px;
+    }
+}
+
+/* screen for 548 */
+@media screen and (max-width: 548px){
+    .brandName {
+        font-size: 28px;
+    }
+    .brandLogo{
+        width: 100px;
+    }
+
+    .current_service .title, .next_token .title {
+        font-size: 30px;
+    }
+    .current_service .token{
+        font-size: 30px;
+    }
+    .current_service .token-number{
+        font-size: 42px;
+    }
+    .current_service .counter{
+        font-size: 30px;
+    }
+
+    .process .item{
+        font-size: 30px;
+    }
+    
+    .border-right{
+        border-right: 0px solid #ddd;
+    }
+    
+    .left_side_content .process{
+        padding: 20px;
+    }
+    .left_side_content .process .process_content{
+        padding: 6px 12px;
+        width: 100%;
+        border: 1px solid #ddd;
+        text-align: center;
+        border-radius: 8px;
+        margin: 6px 0;
+    }
+    .process_content .percent {
+        line-height: 62px;
+    }
+
+    .selected_service{
+        width: 360px;
+    }
+    .selected_service .details{
+        column-gap: 14px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .get_token_number{
+        font-size: 24px;
+    }
+    .get_token_description{
+        font-size: 16px;
+    }
+
+    .congratulations_box{
+        width: 360px;
+        padding: 20px 25px;
+    }
+    .congratulations_box .icon{
+        font-size: 60px;
+    }
+    .congratulations_box .title{
+        font-size: 22px;
+    }
+    .congratulations_box .description{
+        font-size: 16px;
+    }
+    .congratulations_box .token_details .item{
+        font-size: 14px;
+    }
+     
+}
+
+/* screen for 375 */
+@media screen and (max-width: 375px){
+    .brandName {
+        font-size: 22px;
+    }
+    .brandLogo{
+        width: 80px;
+    }
+
+    .current_service .title, .next_token .title {
+        font-size: 24px;
+    }
+    .current_service .token{
+        font-size: 24px;
+    }
+    .current_service .token-number{
+        font-size: 32px;
+    }
+    .current_service .counter{
+        font-size: 24px;
+        
+    }
+
+    .next_token .box{
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 8px;
+    
+    }
+    .next_token .tok_number{
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .empty_dot{
+        width: 6px;
+        height: 6px;
+    }
+
+    .link-footer{
+        gap: 20px;
+    }
+    .link-footer .links{
+        letter-spacing: 0;
+    }
+
+    .selected_service{
+        width: 290px;
+    }
+    .selected_service .details{
+        column-gap: 10px;
+        font-size: 13px;
+    }
+    
+    .congratulations_box{
+        width: 298px;
+        padding: 12px 14px;
+    }
+    .congratulations_box .icon{
+        font-size: 50px;
+    }
+    .congratulations_box .title{
+        font-size: 20px;
+    }
+    .congratulations_box .description{
+        font-size: 14px;
+    }
+    .congratulations_box .token_details .item{
+        font-size: 12px;
+        padding: 10px 0;
+    }
+}
